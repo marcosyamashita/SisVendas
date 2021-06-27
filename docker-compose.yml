@@ -9,7 +9,8 @@ services:
       - "${PORT_API}:80"
     volumes:
       - .docker/web/api.conf:/etc/apache2/sites-enabled/api.conf
-      - .:/var/www/html/
+      #- .:/Applications/MAMP/htdocs/sisVendas
+      - .:/var/www/html/sisVendas
     environment:
       DOCKER_HOST_IP:
       MYSQL_ROOT_PASSWORD:
