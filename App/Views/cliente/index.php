@@ -55,9 +55,6 @@
                                 '<?php echo in64($cliente->id); ?>',
                                 '<?php echo $cliente->nome; ?>'
                                 )" class="btn btn-sm
-                                <?php if ($cliente->quantidadeEnderecos == 0):?>
-                                   btn-danger
-                                <?php endif;?>">
                                 <i class="fas fa-map-marker-alt"></i>
                             </button>
                         </td>

@@ -32,7 +32,7 @@
                     placeholder="Data de compensação"
                     value="<?php if (isset($pedido->id) && $pedido->data_compensacao != null): ?><?php echo $pedido->data_compensacao; ?><?php endif; ?>"
                     <?php if (isset($pedido->id) && $pedido->id_meio_pagamento !== 4 && $pedido->data_compensacao === null) { echo 'disabled'; } ?>
-                />
+                disabled=""/>
             </div>
         </div>
     </div>
