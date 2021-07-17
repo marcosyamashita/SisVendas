@@ -129,8 +129,9 @@ $configPdv = $configPdv->configPdv(Session::get('idEmpresa'));
                 </div>
             </a>
             <a href="<?php echo BASEURL; ?>/pdvDiferencial" class="simple-text logo-normal">
-          <span style="color:#00cc66;">&nbsp;&nbsp;&nbsp;
-            <b style="opacity:0.70">TONIE</b>
+          <span style="color:#00cc66;">&nbsp;&nbsp;
+            <b style="opacity:0.70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FLY<br>SUPLEMENTOS</b>
+
           </span>
                 <!--<span>Zig</span>
                 <span>Money</span>-->
